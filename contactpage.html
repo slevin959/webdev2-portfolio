@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+    
+	<head>
+		<title>Contact Form Page</title>
+        
+        <link rel="stylesheet" href="css/style.css">
+        
+	</head>
+    
+	<body>
+        
+        <form action="userdata.html" method="get">
+            
+            <fieldset>
+                
+                <legend>Details about you</legend>
+                <p class="instructions">Please enter your details below.</p>
+                
+                <div class="divA">
+                    <label for="firstname">First name:</label>
+                    <input type="text" name="firstname" id="firstnamel" required>
+                </div>
+                
+                <div class="divA">
+                    <label for="lastname">Last name:</label>
+                    <input type="text" name="lastname" id="lastname" required>
+                </div>
+                
+                <div class="divA">
+                    <label for="address">Address:</label>
+                    <input type="text" name="address" id="address" required>
+                </div>
+                
+                <div class="divA">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                
+                <div class="divA">
+                    <label for="tel">Telephone:</label>
+                    <input type="tel" name="tel" id="tel" placeholder="Optional">
+                </div>
+                
+            </fieldset>
+            
+            <fieldset>
+                
+                <legend>Feedback</legend>
+                
+                <div class="radios">
+                
+                    <p>Did this website help you?</p>
+
+                    <div class="left">
+                        <div class="divB">
+                            <input type="radio" name="subject" id="yes" value="yes" checked>
+                            <label for="yes">Yes!</label>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="divB">
+                            <input type="radio" name="subject" id="no" value="no">
+                            <label for="no">No</label>
+                        </div>
+                    </div>
+
+                    <p class="instructions">Which of these social media appliciants have you used before?</p>
+
+                    <div class="left">
+                        <div class="divC">
+                            <input type="checkbox" name="snapchat" id="snatchat">
+                            <label for="snapchat">Snapchat</label>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="divC">
+                            <input type="checkbox" name="facebook" id="facebook">
+                            <label for="facebook">Facebook</label>
+                        </div>
+                    </div>
+                   <div class="left">
+                        <div class="divC">
+                            <input type="checkbox" name="youtube" id="youtube">
+                            <label for="youtube">Youtube</label>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="divC">
+                            <input type="checkbox" name="instagram" id="instagram">
+                            <label for="instagram">Instagram</label>
+                        </div>
+                    </div>
+                    <div class="left">
+                        <div class="divC">
+                            <input type="checkbox" name="whatsapp" id="whatsapp">
+                            <label for="whatsapp">Whatsapp</label>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <p class="instructions2">Have ever experienced or thought someone using social media?</p>
+                    
+                    <div class="divF">
+                        <select name="option">
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                
+                <p class="instructions3">After going through the website, which of these social media apps would you use or recommend for teaching?</p>
+                
+                <div class="left">
+                    <div class="divD">
+                        <input type="checkbox" name="snapchat" id="snatchat">
+                        <label for="snapchat">Snapchat</label>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="divD">
+                        <input type="checkbox" name="facebook" id="facebook">
+                        <label for="facebook">Facebook</label>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="divD">
+                        <input type="checkbox" name="youtube" id="youtube">
+                        <label for="youtube">Youtube</label>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="divD">
+                        <input type="checkbox" name="instagram" id="instagram">
+                        <label for="instagram">Instagram</label>
+                    </div>
+                </div>
+                <div class="left">
+                    <div class="divD">
+                        <input type="checkbox" name="whatsapp" id="whatsapp">
+                        <label for="whatsapp">Whatsapp</label>
+                    </div>
+                </div>
+
+                <p class="instructions2">Do you have any other ideas on how to use social media for teaching purpuses?</p>
+                
+                <div class="divE">
+                    <textarea name="question" id="question" placeholder="Please answer here"></textarea>
+                </div>
+            
+            </fieldset>
+            
+            <fieldset class="fieldsetbutton">
+                
+                <div class="buttons">
+                    <div class="leftbutton">
+                        <button type="submit" id="sumbit">Sumbit feedback</button>
+                    </div>
+                    <div class="rightbutton">
+                        <button type="reset" id="reset">Reset form</button>
+                    </div>
+                </div>
+                
+            </fieldset>
+
+		</form>
+            
+        <div>
+
+            <a href="resources.html" class="back">Back Page</a>
+        </div>
+        
+	</body>
+    
+</html>
